@@ -9,34 +9,44 @@
         * {
             box-sizing: border-box;
         }
+
+        .container {
+            display:flex;
+            justify-content: space-around;
+        }
     </style>
 </head>
 
 <body>
-    Básico
-    $ 9.99 / año
-    10GB de Almacenamiento
-    10 Correos Electrónicos
-    10 Dominios
-    1GB de Ancho de Banda
-    Registrarse
-    
-    Pro
-    $ 24.99 / año
-    25GB de Almacenamiento
-    25 Correos Electrónicos
-    25 Dominios
-    2GB de Ancho de Banda
-    Registrarse
-    
-    Premium
-    $ 49.99 / año
-    50GB de Almacenamiento
-    50 Correos Electrónicos
-    50 Dominios
-    5GB de Ancho de Banda
-    Registrarse
+    <div class="container">
+        <section class="basico">
+            <h2 class="title__basico">Básico</h2>
+            <div>$ 9.99 / año</div>
+            <div>10GB de Almacenamiento</div>
+            <div>10 Correos Electrónicos</div>
+            <div>10 Dominios</div>
+            <div>1GB de Ancho de Banda</div>
+            <div><button>Registrarse</button></div>
+        </section>
+        <section class="pro">
+            <h2 class="title__pro">Pro</h2>
+            <div>$ 24.99 / año</div>
+            <div>25GB de Almacenamiento</div>
+            <div>25 Correos Electrónicos</div>
+            <div>25 Dominios</div>
+            <div>2GB de Ancho de Banda</div>
+            <div><button>Registrarse</button></div>
+        </section>
+        <section class="premium">
+            <h3 class="title__premium">Premium</h3>
+            <div>$ 49.99 / año</div>
+            <div>50GB de Almacenamiento</div>
+            <div>50 Correos Electrónicos</div>
+            <div>50 Dominios</div>
+            <div>5GB de Ancho de Banda</div>
+            <div><button>Registrarse</button></div>
+        </section>
+    </div>
 </body>
 
 </html>
-
