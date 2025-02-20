@@ -22,29 +22,54 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            border-color: lightgray;
-            border-style: solid;
             flex-grow: 1;
             flex-shrink: 1;
             min-width: 0;
             
-
         }
 
         section div {
             height:50px ;
+            border-style: solid;
+            border-color: lightgrey;
+            border-width: thin;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display:flex
+        }
+
+        .price {
+            background-color: lightgray;
+        }
+
+        .register {
+            background-color: lightgray;
         }
         
         h2 {
             color:white;
             background-color: black;
             margin-top: 0;
+            margin-bottom: 0;
             font-weight: unset;
             display:flex;
             justify-content: center;
             align-items: center;
             height:50px ;
             width: 100%;
+        }
+
+        .title__pro {
+            background-color: #6868AC;
+        }
+
+        button {
+            background-color: #6868AC;
+            color: white;
+            padding: 8px 24px;
+            border: 0
+    
         }
     </style>
 </head>
@@ -58,7 +83,7 @@
             <div>10 Correos Electrónicos</div>
             <div>10 Dominios</div>
             <div>1GB de Ancho de Banda</div>
-            <div><button>Registrarse</button></div>
+            <div class="register"><button>Registrarse</button></div>
         </section>
         <section class="pro">
             <h2 class="title__pro">Pro</h2>
@@ -67,7 +92,7 @@
             <div>25 Correos Electrónicos</div>
             <div>25 Dominios</div>
             <div>2GB de Ancho de Banda</div>
-            <div><button>Registrarse</button></div>
+            <div class="register"><button>Registrarse</button></div>
         </section>
         <section class="premium">
             <h2 class="title__premium">Premium</h2>
@@ -76,7 +101,7 @@
             <div>50 Correos Electrónicos</div>
             <div>50 Dominios</div>
             <div>5GB de Ancho de Banda</div>
-            <div><button>Registrarse</button></div>
+            <div class="register"><button>Registrarse</button></div>
         </section>
     </div>
 </body>
